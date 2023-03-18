@@ -6,7 +6,7 @@ openai.api_key = 'apikey'
 input_str = 'init'
 messages=[]
 
-while input_str != 'end':
+while True:
     input_str = input("chatgpt君に申したい事:")
     if input_str == 'end':
         break
